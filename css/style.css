@@ -15,6 +15,7 @@ body {
 }
 
 #topo {
+    margin-top: 20px;
     height: 150px;
     background: url(../imagens/detalhe-topo.png) no-repeat right top;
 }
@@ -181,11 +182,51 @@ h3 {
     text-transform: uppercase;
     display: inline;
     font-size: 0.8em;
-    pad: 3px;
+    padding: 3px;
 }
 
-h3.destaque {
-    
+.destaque h3{
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3{
+    background: #b10333;
+    color: #fff;
+}
+
+/* Formatando lista de noticias */ 
+
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 65px;
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+
+#lista-noticias li a {
+    text-decoration: none;
+    font-size: 0.8em;
+
+}
+
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #3e7ab9;
+}
+
+#lista-noticias li a p {
+    font-size: 0.7em;
+}
+
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
 }
 
 /*rodape*/
